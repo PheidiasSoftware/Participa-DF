@@ -1,0 +1,16 @@
+﻿id,text,label_expected,notes
+1,"Meu CPF ***.***.***-** foi cadastrado no sistema.",non_public,CPF mascarado
+2,"RG XX.XXX.XXX-X em meu cadastro.",non_public,RG mascarado
+3,"Meu e-mail e joao (at) exemplo (dot) com",non_public,E-mail ofuscado
+4,"Contato: maria arroba empresa ponto com",non_public,E-mail ofuscado em PT
+5,"Telefone: +55 (61) 9 9999-8888",non_public,Telefone com DDI
+6,"Moro na quadra 403, bloco A, apto 12.",non_public,Endereco sem CEP
+7,"Endereco: Rua das Flores, 123, bloco B",non_public,Endereco com termo explicito
+8,"Meu endereço é 703 sul, bloco C",non_public,Endereco com bloco
+9,"Sou Joao Silva e preciso do relatorio X",public,Nome sem campo explicito
+10,"Problema no sistema COMERCIOPLUS 2020",public,Texto pessoal sem PII
+11,"CPF: 123.456.789-00",non_public,CPF explicito
+12,"Email: usuario@dominio.gov.br",non_public,Email explicito
+13,"Solicito dados de orçamento da secretaria",public,Pedido publico
+14,"Meu telefone é 61999998888",non_public,Telefone sem separador
+15,"CEP 72000-000, quadra 12",non_public,CEP + logradouro

@@ -1,0 +1,26 @@
+﻿CHECKLIST FINAL – PROJETO ACESSO À INFORMAÇÃO
+
+[OK] Estrutura de pastas organizada (data, outputs, reports, models, docs, avancado)
+[OK] README completo e alinhado ao edital (P1/P2)
+[OK] Ambiente virtual documentado (PowerShell e CMD)
+[OK] Guia leigo (GUIA_RAPIDO.txt) atualizado
+[OK] Scripts .bat funcionais e com ativacao automatica do venv
+[OK] CSVs com UTF-8-SIG e separador ;
+[OK] XLSX gerados com largura ajustada
+[OK] Regras de PII revisadas e ajustadas
+[OK] Revisao manual dos ajustes (predictions) concluida
+[OK] PPTX atualizado e com acentuacao correta
+[OK] Edital movido para docs/
+
+Arquivos-chave:
+- README.md
+- GUIA_RAPIDO.txt
+- Apresentacao_Acesso_Informacao.pptx
+- outputs/predictions.csv e outputs/predictions.xlsx
+- outputs/rotulos_fracos.csv e outputs/rotulos_fracos.xlsx
+- reports/metrics.txt
+- reports/ajustes_predicao.xlsx
+- docs/edital_participa_df.pdf
+
+Observacao:
+O ambiente virtual (.venv) serve apenas para isolar bibliotecas. As saidas ficam em outputs/ e reports/.

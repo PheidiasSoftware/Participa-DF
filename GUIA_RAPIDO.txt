@@ -1,0 +1,53 @@
+﻿# Guia Rápido (ultra simples)
+
+## O que este programa faz?
+Ele identifica pedidos que contêm **dados pessoais** e deveriam ser **não públicos**.
+
+## Como usar (2 passos)
+
+### Passo 0 (opcional, recomendado)
+Criar ambiente virtual:
+- Dê **duplo clique** em `criar_ambiente.bat`
+
+Ou use no PowerShell:
+```
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+```
+(Se estiver no CMD, use: `.venv\Scripts\activate.bat`)
+
+### Passo 1 (uma única vez)
+- Se o modelo já foi treinado, pule este passo.
+- Caso contrário, execute o treinamento em:
+  - `avancado/executar_treinamento.bat`
+
+### Passo 2 (uso diário)
+- Dê **duplo clique** em:
+  - `executar_predicao.bat`
+
+No PowerShell, use:
+```
+.\executar_predicao.bat
+```
+
+Para treino no PowerShell:
+```
+.\avancado\executar_treinamento.bat
+```
+
+Isso gera o arquivo final:
+- `outputs/predictions.csv`
+- `outputs/predictions.xlsx`
+
+## Importante
+- Se existir a pasta `.venv`, os arquivos `.bat` ativam o ambiente virtual automaticamente.
+
+## Onde ver os resultados
+- Predições: `outputs/predictions.csv` e `outputs/predictions.xlsx`
+- Relatório: `reports/metrics.txt` (gerado no treinamento)
+
+## Se algo der errado
+- Verifique se o Python está instalado.
+- Garanta que o `requirements.txt` foi instalado.
+- Confirme se os arquivos de entrada estão em `data/`.

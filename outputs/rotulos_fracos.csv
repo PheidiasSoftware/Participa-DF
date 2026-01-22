@@ -1,0 +1,21 @@
+﻿id;text;label;weight
+1;Solicito informações sobre o orçamento anual da secretaria.;public;1.0
+2;Gostaria de saber o número de servidores ativos em 2023.;public;1.0
+3;Pedido de acesso a relatórios de fiscalização ambiental.;public;1.0
+4;Quais foram os gastos com publicidade institucional no último ano?;public;1.0
+5;Solicito cópia do contrato de limpeza urbana.;public;1.0
+6;Informações sobre licitações realizadas em 2022.;public;1.0
+7;Quantas escolas públicas existem no DF?;public;1.0
+8;Pedido de dados estatísticos sobre atendimento hospitalar.;public;1.0
+9;Solicito organograma atualizado da secretaria.;public;1.0
+10;Relatório de execução orçamentária do último trimestre.;public;1.0
+11;Meu CPF é 123.456.789-00 e preciso corrigir meus dados no sistema.;non_public;1.0
+12;Meu nome é João da Silva e solicito acesso ao meu cadastro.;non_public;1.0
+13;Gostaria de atualizar meu endereço residencial cadastrado.;non_public;1.0
+14;Meu e-mail joao.silva@email.com consta errado no sistema.;non_public;1.0
+15;Solicito informações sobre processo que envolve meu CPF 98765432100.;non_public;1.0
+16;Telefone 61 99999-8888 cadastrado incorretamente.;non_public;1.0
+17;Peço acesso aos dados pessoais informados no meu cadastro.;non_public;1.0
+18;Meu nome completo é Maria Oliveira, favor verificar meus dados.;non_public;1.0
+19;Solicito exclusão do meu email maria@email.com do sistema.;non_public;1.0
+20;Preciso consultar informações vinculadas ao meu documento pessoal.;non_public;1.0

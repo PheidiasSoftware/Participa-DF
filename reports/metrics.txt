@@ -1,0 +1,13 @@
+Data/Hora: 2026-01-22 15:01:47
+
+Relatório de Classificação (validação holdout):
+classe (significado)                  precisão  recall  f1-score  suporte
+non_public (contém dados pessoais)    1.00      1.00        1.00        2
+public (não contém dados pessoais)    1.00      1.00        1.00        2
+
+acurácia     1.00
+P1 (F1 para non_public): 1.0000
+
+Validacao cruzada (5-fold):
+P1 medio (F1 non_public): 0.7267
+Acuracia media: 0.7500

@@ -1,0 +1,33 @@
+﻿Resumo das regras de dados pessoais
+
+1) Sinais fortes (weight = 1.0)
+- CPF: 000.000.000-00 ou 11 dígitos
+- RG: padrão comum com pontuação opcional
+- E-mail: usuario@dominio
+- Telefone: DDD opcional, 8 ou 9 dígitos com ou sem hífen
+- Telefone com DDI: +55 (61) 99999-8888
+- CEP + logradouro: CEP (00000-000) combinado com termo de endereço (rua, avenida, av., travessa, alameda, quadra, lote, conjunto, bairro, bloco, apto, apartamento)
+
+2) Sinais fortes mascarados (weight = 0.9)
+- CPF mascarado: ***.***.***-** ou xxx.xxx.xxx-xx
+- RG mascarado: **.***.***-* ou xx.xxx.xxx-x
+- E-mail ofuscado: usuario (at) dominio (dot) com / usuario arroba dominio ponto com
+- Campos explícitos: cpf:, rg:, email:, e-mail:, telefone:, celular:, nome:, endereco:, endereço:, oab:
+
+3) Endereço sem CEP (weight = 0.8)
+- Termo de endereço + número (ex.: "quadra 403", "bloco 12")
+- Endereço administrativo com número (ex.: "CRN 104", "SHDF 602")
+
+4) Palavras-chave (weight = 0.6)
+- meu cpf, meu rg, meu nome, meu endereço, meu email/e-mail, telefone, celular
+- documento pessoal, documentos pessoais, meus documentos, dados pessoais
+
+5) Exceções institucionais (public)
+- cadastro de entidades, entidades consignatárias, SIGRH, lista atualizada
+- lista de ocorrências, itens arremessados, estatísticas
+- edital, curso de formação, ajuda financeira, consulta institucional
+- NIRE, protocolo integrado, viabilidade
+- auto de infração, auto de infração demolitoria, prazo para recurso
+
+Observação: o rótulo final é non_public quando qualquer regra de PII dispara.
+Caso contrário, public.
