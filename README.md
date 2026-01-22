@@ -278,8 +278,6 @@ será feita pela CGDF em dataset de controle próprio com dados sintéticos.
 - Acurácia local pode ser inflada em bases pequenas; por isso há validação cruzada.
 - Casos de PII implícita sem sinais explícitos ainda podem falhar.
 
-## Documentos
-- docs/edital_participa_df.pdf
 
 ## Avançado
 - avancado/README_AVANCADO.txt
